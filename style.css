@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #363434;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #363434;
+}
+
+section{
+    position: relative;
+    background-color: rgb(127, 127, 127);
+    height: 80vh;
+    width: 100%;
+    background-size:contain ;
+}
+.section-container{
+    display: block;
+    position: relative;
+    height: 70vh;
+    margin-bottom: 70vh;
+    width: 100%;
+}
+.A-position {
+    position: absolute;
+    height: 255px;
+    top: 5rem;
+    left: 8rem;
+    box-shadow: 8px 8px 5px #444;
+}
+.B-position {
+    position: absolute;
+    left: 20.6rem;
+    top: 16.6rem;
+    box-shadow: 8px 8px 5px #444;
+}
+img {
+    border-radius: 20px;
+}
+.cotant{
+    display: inline;
+    position: absolute;
+    direction: rtl;
+    float: right;
+    top: 14rem;
+    right: 10rem;
+}
+h4{
+    font-size: larger;
+    text-align: justify;
+}
+h4,h2 {
+    width: 50%;
+}
+article{
+    position: relative;
+    top: 4rem ;
+    bottom:4rem;
+    left: 8rem;
+    height: 60vh;
+    overflow-x: hidden;
+}
+.box{
+    /* display: inline-block; */
+    width: 6rem;
+    height: 6rem;
+    border-radius: 10px;
+    
+}
+.box-property-1{
+    background-color: #7fffd3;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+.box-property-2{
+    background-color: #8a7eff;
+    position: absolute;
+    left: 6.5rem;
+    top: 6.5rem;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.box-property-3{
+    background-color: #ff7f9c;
+    position: absolute;
+    left: 13rem;
+    top: 13rem;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+.box-property-4{
+    background-color: #bdff7f;
+    position: absolute;
+    left: 19.5rem;
+    top: 6.5rem;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+.box-property-5{
+    background-color: #feb97f;
+    position: absolute;
+    left: 26rem;
+    top: 0rem;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+.pattern{
+    width: 34.4%;
+    display: inline-block;
+    position: relative;
+    margin: 0rem 3rem;
+}
+footer{
+    text-align: end;
+    background-color: #363434;
+}
+.footer-container{
+    text-align: center;
+}
+ul.footer-info{
+    display: inline-block;
+    text-align: center;
+}
